@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+div.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h4.title{
+    font-family: 'Inter', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    
+}
+div.image1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:50px;
+
+}
+div.image2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin-left: 10px;
+    margin-right:10px;
+}
+div.prop{
+  
+
+}
+div.prophead{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.aval{
+    font-weight: bold;
+    font-size: x-small;
+    font-family: 'Inter', sans-serif;
+}
+div.cat{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
+
+.category-card{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.category-card-text{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
