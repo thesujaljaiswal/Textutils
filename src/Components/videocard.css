@@ -3,7 +3,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        flex-direction: column;
       }
       
       .video-text {
@@ -12,16 +12,14 @@
         text-align: center;
         justify-items: center;
         align-items: center;
-        position: absolute;
-        top: 50px;
         font-weight: bold;
+        padding-top: 40px;
 
       }
       
       .video-card {
         width: 70%;
         max-height: 70%;
-        /* border-radius: 5%; */
         margin: 20px;
         padding: 20px;
        
