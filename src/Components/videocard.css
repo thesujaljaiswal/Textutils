@@ -31,3 +31,14 @@
         object-fit: cover;
         /* border-radius:5%; */
       } 
+
+@media(max-width:600){
+  .video-card{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .video-container{
+    width: 100%;
+  }
+}

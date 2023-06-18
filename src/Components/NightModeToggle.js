@@ -18,16 +18,15 @@ const NightModeToggle = () => {
   return (
     <div className={`app ${isNightMode ? 'night-mode' : 'light-mode'}`}>
       <div className="content">
-        <h1>Welcome to the {isNightMode ? 'Night Mode' : 'Light Mode'}</h1>
-        {/* <p>Hype</p> */}
           <button className='rounded-btn ' type='button' onClick={handleToggle}
             style={{ boxShadow: `0 0 5px ${buttonShadowColor}`}}  >
             {/* icons from ionicons */}
           {isNightMode? <ion-icon name="sunny"></ion-icon> : <ion-icon name="moon"></ion-icon>}
           
           </button>
-        
       </div>
+          <div className='text'><p>{isNightMode ? 'Night Mode' : 'Light Mode'}</p></div>
+        
     </div>
   );
 };
