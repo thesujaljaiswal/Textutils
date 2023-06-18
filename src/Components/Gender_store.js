@@ -1,24 +1,24 @@
 import React from "react";
 import "./Gender_store.css";
 
-export default function Gender_store() {
+export default function Gender_Store() {
   return (
     <>
-      <div class="gender_shop">
-        <div class="mens">
-          <div>
-            <img src={require("./men-model.jpg")} />
+      <div className="gender_shop">
+        <div className="mens">
+          <div className="img">
+            <img src={require("./men-model.jpg")} alt="mensimage" />
           </div>
           <div>
-            <button>SHOP MENS</button>
+            <button className="btn-gender">SHOP MENS</button>
           </div>
         </div>
-        <div class="womens">
-          <div>
-            <img src={require("./women-model.jpg")} />
+        <div className="womens">
+          <div className="img">
+            <img src={require("./women-model.jpg")} alt="womensimage"/>
           </div>
           <div>
-            <button>SHOP WOMENS</button>
+            <button className="btn-gender">SHOP WOMENS</button>
           </div>
         </div>
       </div>

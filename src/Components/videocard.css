@@ -1,0 +1,33 @@
+
+    .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+      .video-text {
+        font-family: "Inter", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 40px;
+
+      }
+      
+      .video-card {
+        width: 70%;
+        max-height: 70%;
+        margin: 20px;
+        padding: 20px;
+       
+      }
+      
+      .video-card video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* border-radius:5%; */
+      } 
