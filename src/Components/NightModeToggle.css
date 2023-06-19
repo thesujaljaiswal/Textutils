@@ -6,12 +6,14 @@
   background-color: white;
   color: black;
   transition: background-color 0.5s ease, color 1s ease; /* Slow transition */
+  margin-bottom: 75px;
 }
 .text{
-  font-size: x-large;
+  font-size: xx-large;
   padding-left: 13px;
   font-weight: 600;
   font-family: 'inter';
+  margin-left: 20px;
 }
 .light-mode {
   background-color: white;

@@ -6,9 +6,10 @@ div.header{
 }
 h4.title{
     font-family: 'Inter', sans-serif;
-    font-size: x-large;
-    font-weight: bold;
+    font-size:48px;
+    font-weight: 700;
     color: black;
+    margin-bottom: 75px;
     
 }
 div.image1{
@@ -29,10 +30,7 @@ div.image2{
     margin-left: 10px;
     margin-right:10px;
 }
-div.prop{
-  
 
-}
 div.prophead{
     margin-left: 3rem;
     margin-right: 3rem;

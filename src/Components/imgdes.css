@@ -9,6 +9,9 @@
    flex-wrap:wrap;
    width: 100%;
 }
+.image img{
+   border-radius: 55px;
+}
 .pricing{
    display: flex;
    font-family: 'inter';
