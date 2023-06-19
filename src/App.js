@@ -8,25 +8,14 @@ import Cat from './Components/Cat';
 import Banner from './Components/Banner';
 
 function App(props) {
-
-  
-  // Defining a boolean state which will be used to know the status of the mode
-  const [isNightMode, setIsNightMode] = useState(false);
-
-
-  const handleToggle = () => {
-    setIsNightMode(!isNightMode);
-  };
-
-  // for shadow animation 
   return (
     <>
       <Navbar/>
       <Banner/>
-      <NightModeToggle handleToggle={props.handleToggle}/>
+      <NightModeToggle/>
       <Gender_Store/>
       <Cat/>
-      <Videocard isNightMode={isNightMode}/>
+      <Videocard/>
       <Footer/>
     </>
   );
