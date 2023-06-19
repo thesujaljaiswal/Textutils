@@ -6,6 +6,8 @@ import Videocard from './Components/Videocard';
 import NightModeToggle from './Components/NightModeToggle';
 import Cat from './Components/Cat';
 import Banner from './Components/Banner';
+import Newin from './Components/Newin';
+import Bestseller from './Components/Bestseller';
 
 function App(props) {
   return (
@@ -16,6 +18,8 @@ function App(props) {
       <Gender_Store/>
       <Cat/>
       <Videocard/>
+      <Newin/>
+      <Bestseller/>
       <Footer/>
     </>
   );

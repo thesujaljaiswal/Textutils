@@ -1,5 +1,6 @@
 .container {
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,58,58,1) 100%);
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -14,9 +15,9 @@ ul {
   margin: 0px 0px 0px 0px;
 }
 
-a {
+.container a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .footer-heading {
@@ -31,25 +32,34 @@ a {
 }
 
 .footer-lining {
+  background-color: #ffffff;
   width: 90%;
   height: 0px;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
+  margin: 0;
+  /* padding: 0px 20px; */
 }
 
 .footer-end{
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(40,58,58,1) 100%);
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
+  padding-top: 10px;
 }
 
 .end-logo{
-  padding-left: 5%;
+  font-family: 'inter';
+  font-weight:500;
+  font-size: 15px;
+}
+.footer-logo{
   font-family: 'inter';
   font-weight:900;
-  font-size: x-large;
+  font-size: xxx-large;
 }
 
 .end-button{

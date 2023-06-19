@@ -5,7 +5,7 @@ export default function Imgdes() {
   return (
     <>
     <div className="outer-container">
-      <div className="container">
+      <div className="container-newin">
         <div className="image">
           <img
             className="w-full"

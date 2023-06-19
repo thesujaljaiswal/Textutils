@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="container">
+      <div className="footer-logo">HYPE</div>
         <div className="aboutus">
           <h6 className="footer-heading">About Us</h6>
           <pre className="text-about">
@@ -76,10 +77,10 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <hr className="footer-lining"/>
+      {/* <hr className="footer-lining"/> */}
       <div className="footer-end">
-        <div className="end-logo">HYPE</div>
-        <div className="end-button">button</div>
+        <div className="end-logo">© 2023 Hype - All Rights Reserved.</div>
+        {/* <div className="end-button">button</div> */}
       </div>
     </>
   );

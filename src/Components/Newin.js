@@ -1,11 +1,11 @@
 import React from "react";
-import Imgdes from "./components/Imgdes";
+import Imgdes from "./Imgdes";
 import "./newin.css";
 
 export default function Newin() {
   return (
     <>
-    <div className="container">
+    <div className="container-newin">
         <h1>New In</h1>
     </div>
       <div className="carousel-cards">
