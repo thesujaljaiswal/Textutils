@@ -33,13 +33,13 @@
         /* border-radius:5%; */
       } 
 
-@media(max-width:600){
-  .video-card{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
+@media(max-width:600px){
   .video-container{
     width: 100%;
+    margin-top: 0px;
+  }
+  .video-card{
+    margin-top: 10px;
+    padding: 0px;
   }
 }

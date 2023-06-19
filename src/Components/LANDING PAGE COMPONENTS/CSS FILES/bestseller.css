@@ -21,3 +21,15 @@ margin-bottom: 30px;
 
 color: #000000;
 }
+
+@media (max-width:600px){
+    .container-bestseller{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .container-bestseller p{
+        font-size: xx-large;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+}

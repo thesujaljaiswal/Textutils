@@ -70,9 +70,37 @@
     }
 }
 @media (max-width: 600px) {
+    .gender_shop{
+    margin-bottom: 20px;
+
+    }
     .img img{
-        height: 250px;
-        width: 175px;
+        height: 231px;
+        width: 162px;
         padding-top: 20px;
+    }
+    .btn-gender {
+        background-color: #d9d9d9;
+        width: 152px;
+        height: 36px;
+        margin-top: 0;
+        font-size: 15px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-style: normal;
+        font-family: 'Inter';
+        border: none;
+    }
+    .btn-gender:hover {
+        background-color: #d9d9d9;
+        width: 152px;
+        height: 36px;
+        margin-top: 0;
+        font-size: 15px;
+        border-radius: 5px;
+        font-weight: 700;
+        font-style: normal;
+        font-family: 'Inter';
+        border: none;
     }
 }

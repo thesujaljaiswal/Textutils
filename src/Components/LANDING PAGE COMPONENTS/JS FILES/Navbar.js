@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar ">
         <div className="options" ref={navref}>
           <a className="buttons" href="/">
             MENS

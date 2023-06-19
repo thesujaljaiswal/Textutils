@@ -19,7 +19,7 @@ div.image1{
     flex-wrap:wrap;
     margin-left: 10px;
     margin-right:10px;
-    margin-bottom:50px;
+    margin-bottom:10px;
 
 }
 div.image2{
@@ -38,17 +38,6 @@ div.prophead{
     flex-wrap:wrap;
 }
 
-div.aval{
-    font-weight: bold;
-    font-size: x-small;
-    font-family: 'Inter', sans-serif;
-}
-div.cat{
-    font-weight: bold;
-    font-size: large;
-    font-family: 'Inter', sans-serif;
-}
-
 .category-card{
     display:flex;
     flex-direction: column;
@@ -56,9 +45,10 @@ div.cat{
     align-items:center;
 }
 
-.category-card-text{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: space-between;
+@media (max-width:600px) {
+    h4.title{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: xx-large;
+    }
 }

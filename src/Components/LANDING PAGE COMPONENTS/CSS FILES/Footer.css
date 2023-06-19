@@ -1,3 +1,17 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,58,58,1) 100%);
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,1);
+  }
+
+
 .container {
   /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,58,58,1) 100%); */
   background-color: #d6d6d6;
@@ -89,7 +103,7 @@ color: #000000;
   margin-bottom: 20px;
   margin-right: 100px;
   margin-top: 20px;
-
+  cursor: pointer;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -117,8 +131,13 @@ color: #000000;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
     margin-top: 53px;
+  }
+  ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
   }
   .aboutus{
     text-align: center;
@@ -137,11 +156,15 @@ color: #000000;
     text-align: center;
     width: 100%;
   }
+  .column-for-content li{
+    text-align: center;
+    width: 100%;
+  }
   .text-about {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 22px;
   
     color: #000000;
@@ -149,7 +172,7 @@ color: #000000;
   .footer-heading {
     font-size: 15px;
     font-weight: 700;
-    margin: 15px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
   }
   .footer-logo {
     font-family: 'inter';
@@ -188,14 +211,37 @@ color: #000000;
     justify-items: start;
     align-items: flex-start;
     padding-left: 5px;
+    height: 750px;
+  }
+  .aboutus{
+    text-align: left;
+    margin-left: 10px;
+    width: 90%;
   }
 
   .categories {
     width: 100%;
   }
+  .categories li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 
   .column-for-content {
     width: 100%;
+  }
+  .column-for-content li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .footer-logo {
+    font-family: 'inter';
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
   }
 
   .footer-heading {
