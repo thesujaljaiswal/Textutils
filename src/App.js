@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
-import Gender_Store from './Components/Gender_Store';
-import Videocard from './Components/Videocard';
-import NightModeToggle from './Components/NightModeToggle';
-import Cat from './Components/Cat';
-import Banner from './Components/Banner';
-import Newin from './Components/Newin';
-import Bestseller from './Components/Bestseller';
+import React from 'react';
+import Navbar from './Components/LANDING PAGE COMPONENTS/JS FILES/Navbar';
+import Footer from './Components/LANDING PAGE COMPONENTS/JS FILES/Footer';
+import GenderStore from './Components/LANDING PAGE COMPONENTS/JS FILES/GenderStore';
+import Videocard from './Components/LANDING PAGE COMPONENTS/JS FILES/Videocard';
+import NightModeToggle from './Components/LANDING PAGE COMPONENTS/JS FILES/NightModeToggle';
+import Cat from './Components/LANDING PAGE COMPONENTS/JS FILES/Cat';
+import Banner from './Components/LANDING PAGE COMPONENTS/JS FILES/Banner';
+import Newin from './Components/LANDING PAGE COMPONENTS/JS FILES/Newin';
+import Bestseller from './Components/LANDING PAGE COMPONENTS/JS FILES/Bestseller';
 
 function App(props) {
   return (
@@ -15,7 +15,7 @@ function App(props) {
       <Navbar/>
       <Banner/>
       <NightModeToggle/>
-      <Gender_Store/>
+      <GenderStore/>
       <Cat/>
       <Videocard/>
       <Newin/>

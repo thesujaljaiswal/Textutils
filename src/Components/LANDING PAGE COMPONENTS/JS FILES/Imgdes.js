@@ -1,5 +1,7 @@
 import React from "react";
-import "./imgdes.css";
+import "../CSS FILES/imgdes.css";
+import femaleimg from '../IMAGES/female.jpeg'
+import hearticon from '../IMAGES/heart.png'
 
 export default function Imgdes() {
   return (
@@ -10,7 +12,7 @@ export default function Imgdes() {
           <img
             className="w-full"
             id="img"
-            src={require("./female.jpeg")}
+            src={femaleimg}
             alt="female"
           />
         </div>
@@ -38,7 +40,7 @@ export default function Imgdes() {
               <img
                 className="w-full"
                 id="wl"
-                src={require("./heart.png")}
+                src={hearticon}
                 alt="heart"
                 height={20}
               />

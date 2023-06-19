@@ -1,6 +1,6 @@
 import React from "react";
 import Imgdes from "./Imgdes";
-import "./newin.css";
+import "../CSS FILES/newin.css";
 
 export default function Newin() {
   return (

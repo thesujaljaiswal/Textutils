@@ -1,6 +1,6 @@
 import React from 'react'
-import Imgdes from './Imgdes'
-import './bestseller.css'
+import Imgdes from '../JS FILES/Imgdes'
+import '../CSS FILES/bestseller.css'
 
 export default function Bestseller() {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NightModeToggle.css'; 
+import '../CSS FILES/NightModeToggle.css'; 
 
 // Starting of the program
 const NightModeToggle = () => {
