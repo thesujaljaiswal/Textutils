@@ -1,5 +1,11 @@
 import React from 'react'
-import './PaymentPortal.css'
+import '../CSS FILES/PaymentPortal.css'
+import cod from '../IMAGES/cash-on-delivery 1.png'
+import rupay from '../IMAGES/rupay 1.png'
+import visa from '../IMAGES/visa 1.png'
+import gpay from '../IMAGES/google-pay 1.png'
+import razorpay from '../IMAGES/razorpaypng 1.png'
+import mastercard from '../IMAGES/mastercard 1.png'
 
 export default function PaymentPortal() {
   return (
@@ -39,7 +45,7 @@ export default function PaymentPortal() {
 
                 {/* Holds the checkout button */}
                 <div className="checkout_div">
-                    <div><a><p>Continue to checkout</p></a></div>
+                    <div><a href='/'><p>Continue to checkout</p></a></div>
                 </div>
 
                 {/* Holds the payment header and icons */}
@@ -51,12 +57,12 @@ export default function PaymentPortal() {
 
                     {/* Holds the icons of payments */}
                     <div className="payment_icons_div">
-                        <div><img id='cod-icon' src="cash-on-delivery 1.png" alt="cash-on-delivery" /></div>
-                        <div><img id='rupay-icon' src="rupay 1.png" alt="rupay" /></div>
-                        <div><img id='visa-icon' src="visa 1.png" alt="visa" /></div>
-                        <div><img id='gpay-icon' src="google-pay 1.png" alt="google-pay" /></div>
-                        <div><img id='razor-icon' src="razorpaypng 1.png" alt="razorpaypng" /></div>
-                        <div><img id='master-icon' src="mastercard 1.png" alt="mastercard" /></div>
+                        <div><img id='cod-icon' src={cod} alt="cash-on-delivery" /></div>
+                        <div><img id='rupay-icon' src={rupay} alt="rupay" /></div>
+                        <div><img id='visa-icon' src={visa} alt="visa" /></div>
+                        <div><img id='gpay-icon' src={gpay} alt="google-pay" /></div>
+                        <div><img id='razor-icon' src={razorpay} alt="razorpaypng" /></div>
+                        <div><img id='master-icon' src={mastercard} alt="mastercard" /></div>
                     </div>
                 </div>
             </div>

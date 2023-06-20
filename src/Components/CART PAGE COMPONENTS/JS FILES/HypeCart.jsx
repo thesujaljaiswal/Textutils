@@ -1,9 +1,9 @@
 import React from 'react'
-import './HypeCart.css'
-
+import '../CSS FILES/HypeCart.css'
+import pants from '../IMAGES/pants.png'
 const HypeCart = () => {
     return (
-        <div className="container">
+        <div className="shopping-container">
             <div className="shopping-bag-container">
                 {/* Shopping header div */}
                 <div id='shopping-heading'><h1>Shopping bag</h1></div>
@@ -14,7 +14,7 @@ const HypeCart = () => {
                     <div className='item'>
                         {/* Image of the product */}
                         <div className="item-image">
-                            <img src="pants.png" alt="p1" />
+                            <img src={pants} alt="p1" />
                         </div>
 
                         {/* Outer Div of name and price and buttons*/}

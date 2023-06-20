@@ -1,10 +1,10 @@
 import React from 'react'
 import HypeCart from './HypeCart'
 import PaymentPortal from './PaymentPortal'
-import './CartPage.css'
+import '../CSS FILES/CartPage.css'
 
 
-export default function CartPage() {
+export default function CartPagecomp() {
   return (
     <div className='cart-page'>
         <div id='items'><HypeCart/></div>

@@ -1,11 +1,11 @@
 import React from "react";
 import { useRef } from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
-import "../CSS FILES/Navbar.css";
-import logo from '../IMAGES/HYPE.png'
-import searchicon from '../IMAGES/search.png'
-import carticon from '../IMAGES/cart.png'
-import usericon from '../IMAGES/user.png'
+import "./Navbar.css";
+import logo from './HYPE.png'
+import searchicon from './search.png'
+import carticon from './cart.png'
+import usericon from './user.png'
 
 const Navbar = () => {
   const navref = useRef();

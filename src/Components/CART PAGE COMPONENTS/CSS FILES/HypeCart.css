@@ -8,13 +8,11 @@
     margin-top: 50px;
 }
 
-
-
-
 .shopping-item-div {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: center;
     margin-top: 50px;
 
 }
@@ -23,7 +21,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 58px;
     display: flex;
     align-items: center;
@@ -43,8 +41,7 @@
 }
 
 .item-image img {
-    width: 84px;
-    height: 128px;
+    width: 250px;
 }
 
 .item-details {
