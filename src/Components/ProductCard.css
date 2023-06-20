@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.product-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+.product-details{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.product-name p{
+    width: 226.5px;
+    height: 44px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.product-price{
+    width: 226.5px;
+    height: 44px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}

@@ -1,0 +1,6 @@
+.product-card-collection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:100px;
+}
