@@ -1,0 +1,23 @@
+.product_image_div{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.product_image_grid_div{
+    width: 492px;
+    height: 811px;
+}
+
+.product_image_grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.product_image_grid img{
+    max-width:100%;
+  
+}
