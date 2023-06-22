@@ -25,14 +25,14 @@ export default function PaymentPortal() {
                 {/* Holds the order statement*/}
                 <div className="order_div">
                     <div className="order_val_div">
-                        <div><p> Order Value</p></div>
-                        <div><p>$22</p></div>
+                        <div className='order_value'><p> Order Value</p></div>
+                        <div className='order_price'><p>$22</p></div>
                     </div>
 
                     {/* delivery and money */}
                     <div className='delivery_division'>
                         <div><p> Delivery</p></div>
-                        <div><p>$22</p></div>
+                        <div className='order_price'><p>$22</p></div>
                     </div>
 
                     <div><hr /></div> 

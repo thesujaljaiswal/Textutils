@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+.outer-heading{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+
+
+    width: 1131px;
+    height: 92px;
+
+    background: #F1F1F1;
+    border: 1px solid #000000;
+}
+
+.outer-heading p{
+    width: 217px;
+    height: 34px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
