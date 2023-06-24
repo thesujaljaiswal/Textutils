@@ -6,6 +6,7 @@ import logo from './HYPE.png'
 import searchicon from './search.png'
 import carticon from './cart.png'
 import usericon from './user.png'
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   const navref = useRef();
@@ -18,15 +19,15 @@ const Navbar = (props) => {
     <>
       <div className="navbar ">
         <div className="options" ref={navref}>
-          <a className="buttons" href="/">
+          <Link className="buttons" to="/products">
             {props.opt1}
-          </a>
-          <a className="buttons" href="/">
+          </Link>
+          <Link className="buttons" to="/products">
             {props.opt2}
-          </a>
-          <a className="buttons" href="/">
+          </Link>
+          <Link className="buttons" to="/products">
             {props.opt3}
-          </a>
+          </Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes/>
           </button>
@@ -35,18 +36,20 @@ const Navbar = (props) => {
           <FaBars/>
         </button>
         <div className="logo">
+        <Link to="/">
           <img src={logo} alt="HYPE" />
+          </Link>
         </div>
         <div className="icons">
-          <a href="/">
+          <Link to="/">
             <img src={searchicon} alt="HYPE" />
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/cart">
             <img src={carticon} alt="HYPE" />
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/signin">
             <img src={usericon} alt="HYPE" />
-          </a>
+          </Link>
         </div>
       </div>
     </>
