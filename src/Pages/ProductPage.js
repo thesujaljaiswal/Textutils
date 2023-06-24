@@ -9,7 +9,7 @@ export default function ProductPage() {
   return (
     <>
 
-        <Navbar></Navbar>
+        <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'></Navbar>
 
         <div className="outer_div">
             

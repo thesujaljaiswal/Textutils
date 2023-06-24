@@ -10,7 +10,7 @@ export default function OrderHistoryPage() {
   return (
     <div>
 
-        <Navbar/>
+        <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'/>
         
         <MiddleHeader heading='Your Order History' description='This is the list of items ordered by you previously'/>
         

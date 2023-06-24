@@ -8,7 +8,7 @@ import Footer from '../Components/Footer'
 export default function WishlistPage() {
   return (
     <>
-        <Navbar></Navbar>
+        <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'></Navbar>
         <MiddleHeader heading="Your Wishlist" description="This is the selection of items liked by you the most"></MiddleHeader>
 
         <div className='product-card-collection'>

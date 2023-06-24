@@ -1,4 +1,5 @@
 import React from 'react';
+import SigninPage from './Pages/SigninPage';
 // import ProductPage from './Pages/ProductPage';
 // import WishlistPage from './Pages/WishlistPage';
 // import ProductListingPage from './Pages/ProductListingPage';
@@ -15,6 +16,7 @@ function App() {
       {/* <ProductListingPage/> */}
       {/* <WishlistPage/> */}
       {/* <ProductPage/> */}
+      <SigninPage/>
     </>
   );
 }

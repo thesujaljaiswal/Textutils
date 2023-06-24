@@ -6,7 +6,7 @@ import Footer from '../Components/Footer'
 export default function CartPage() {
   return (
     <>
-    <Navbar/>
+    <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'/>
       <CartPagecomp/>
       <Footer/>
     </>

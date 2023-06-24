@@ -134,7 +134,7 @@ color: #FFFFFF;
 }
 
 .google{
-    width: 355px;
+    width: 200px;
     height: 54px;   
 }
 
@@ -159,7 +159,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .imp{
@@ -168,6 +168,9 @@ color: #FFFFFF;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+.google-signin{
+    width: 100%;
 }
 
 @media(max-width:855px){

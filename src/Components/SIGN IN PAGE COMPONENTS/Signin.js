@@ -24,9 +24,9 @@ export default function Signin() {
         <div className="imp">
         <a href="/" id='forgetpass'>Forgotten your password?</a>
         <div className="noacc">No Account?<a href="/">Sign up</a> </div>
-        <div className="google"><a href="">
+        <div className="google"><a href="/">
             <img
-            className="w-full"
+            className="google-signin"
             id="img"
             src={require("./google.png")}
             alt="google"

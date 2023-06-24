@@ -7,7 +7,7 @@ import searchicon from './search.png'
 import carticon from './cart.png'
 import usericon from './user.png'
 
-const Navbar = () => {
+const Navbar = (props) => {
   const navref = useRef();
 
   const showNavbar = () =>{
@@ -19,13 +19,13 @@ const Navbar = () => {
       <div className="navbar ">
         <div className="options" ref={navref}>
           <a className="buttons" href="/">
-            MENS
+            {props.opt1}
           </a>
           <a className="buttons" href="/">
-            WOMENS
+            {props.opt2}
           </a>
           <a className="buttons" href="/">
-            KIDS
+            {props.opt3}
           </a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes/>

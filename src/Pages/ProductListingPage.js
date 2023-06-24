@@ -9,7 +9,7 @@ import './ProductListingPage.css'
 export default function ProductListingPage() {
   return (
     <>
-        <Navbar></Navbar>
+        <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'></Navbar>
         <CategoryHeader category='Oversized T-shirts'></CategoryHeader>
 
         <div className='product-card-collection'>
