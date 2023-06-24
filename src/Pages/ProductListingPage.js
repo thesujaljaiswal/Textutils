@@ -1,13 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
-import ProductCard from './ProductCard'
-import CategoryHeader from './CategoryHeader'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import ProductCard from '../Components/PRODUCT LISTING PAGE COMPONENTS/JS FILES/ProductCard'
+import CategoryHeader from '../Components/PRODUCT LISTING PAGE COMPONENTS/JS FILES/CategoryHeader'
 import './ProductListingPage.css'
 
 
 export default function ProductListingPage() {
   return (
-    <div>
+    <>
         <Navbar></Navbar>
         <CategoryHeader category='Oversized T-shirts'></CategoryHeader>
 
@@ -16,11 +17,14 @@ export default function ProductListingPage() {
             <div><ProductCard></ProductCard></div>
             <div><ProductCard></ProductCard></div>
             <div><ProductCard></ProductCard></div>
+        </div>
+        <div className='product-card-collection'>
             <div><ProductCard></ProductCard></div>
             <div><ProductCard></ProductCard></div>
             <div><ProductCard></ProductCard></div>
             <div><ProductCard></ProductCard></div>
         </div>
-    </div>
+        <Footer/>
+    </>
   )
 }

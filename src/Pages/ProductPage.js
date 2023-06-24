@@ -1,12 +1,13 @@
 import React from 'react'
-import ProductPreview from './ProductPreview'
-import ProductDetails from './ProductDetails';
-import Navbar from './Navbar';
+import ProductPreview from '../Components/PRODUCT PREVIEW PAGE COMPONENTS/JS FILES/ProductPreview'
+import ProductDetails from '../Components/PRODUCT PREVIEW PAGE COMPONENTS/JS FILES/ProductDetails';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 import './ProductPage.css';
 
 export default function ProductPage() {
   return (
-    <div>
+    <>
 
         <Navbar></Navbar>
 
@@ -20,7 +21,7 @@ export default function ProductPage() {
                 <ProductDetails></ProductDetails>
             </div>
         </div>
-
-    </div>
+        <Footer/>
+    </>
   )
 }

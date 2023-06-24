@@ -1,12 +1,14 @@
 import React from 'react'
+import '../CSS FILES/ProductCard.css'
+import modelimg from '../IMAGES/card_model.png'
 
 export default function ProductCard() {
   return (
-    <div>
+    <>
 
-        <div className='product-card'></div>
+        <div className='product-card'>
             <div className="product-image">
-                <img src='card_model.png'></img>
+                <img src={modelimg} alt='model'></img>
             </div>
 
             <div className="product-details">
@@ -19,7 +21,8 @@ export default function ProductCard() {
                 </div>
 
             </div>
+            </div>
 
-    </div>
+    </>
   )
 }

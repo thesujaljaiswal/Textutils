@@ -1,6 +1,5 @@
 import React from 'react'
-import './MiddleHeader.css'
-import PropTypes from 'prop-types'
+import '../CSS FILES/MiddleHeader.css'
 
 export default function MiddleHeader(props) {
 
@@ -12,7 +11,7 @@ export default function MiddleHeader(props) {
 
             <div className='header-description'>
                 <div><p>{props.description}</p></div>
-                <div><img src='heart.png'></img></div>
+                <div>❤️</div>
             </div>
 
         </div>

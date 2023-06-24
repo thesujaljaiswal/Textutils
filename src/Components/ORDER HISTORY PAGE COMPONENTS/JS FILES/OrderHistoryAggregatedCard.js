@@ -1,5 +1,5 @@
 import React from 'react'
-import './OrderHistoryAggregated.css'
+import '../CSS FILES/OrderHistoryAggregated.css'
 
 export default function OrderHistoryAggregatedCard() {
   return (

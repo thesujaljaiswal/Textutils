@@ -3,20 +3,14 @@
 .product-card{
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly;
 }
 
 .product-details{
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
 }
 
 .product-name p{
-    width: 226.5px;
-    height: 44px;
-
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -28,10 +22,6 @@
 }
 
 .product-price{
-    width: 226.5px;
-    height: 44px;
-
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;

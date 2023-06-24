@@ -1,5 +1,11 @@
 import React from "react";
-import "./ProductDetails.css";
+import "../CSS FILES/ProductDetails.css";
+import stars from '../IMAGES/reviews_star.png'
+import icontext from '../IMAGES/add_icon_text.png'
+import deliveryicon from '../IMAGES/delivery_icon.png'
+import giftbox from '../IMAGES/gift_box.png'
+import shakehand from '../IMAGES/shake_hand.png'
+import payment from '../IMAGES/payment.png'
 
 export default function ProductDetails() {
   return (
@@ -31,16 +37,19 @@ export default function ProductDetails() {
 
           <div className="reviews_stars">
             <div>
-              <img src="reviews_star.png"></img>
+              <img src={stars} alt="star review"></img>
             </div>
             <div>
-              <img src="reviews_star.png"></img>
+              <img src={stars} alt="star review"></img>
             </div>
             <div>
-              <img src="reviews_star.png"></img>
+              <img src={stars} alt="star review"></img>
             </div>
             <div>
-              <img src="reviews_star.png"></img>
+              <img src={stars} alt="star review"></img>
+            </div>
+            <div>
+              <img src={stars} alt="star review"></img>
             </div>
           </div>
         </div>
@@ -95,7 +104,7 @@ export default function ProductDetails() {
         {/* Add to cart button */}
         <div className="add_to_cart_button_div">
           <div>
-            <img src="add_icon_text.png"></img>
+            <img src={icontext} alt="icon"></img>
           </div>
         </div>
 
@@ -104,7 +113,7 @@ export default function ProductDetails() {
           <div className="sub_points">
             <div className="point">
               <div>
-                <img src="delivery_icon.png"></img>
+                <img src={deliveryicon} alt="delivery"></img>
               </div>
               <div>
                 <p>Standard delivery in 4-7 days</p>
@@ -113,7 +122,7 @@ export default function ProductDetails() {
 
             <div className="point">
               <div>
-                <img src="gift_box.png"></img>
+                <img src={giftbox} alt="gift box"></img>
               </div>
               <div>
                 <p>Get a hamper on your first order</p>
@@ -124,7 +133,7 @@ export default function ProductDetails() {
           <div className="sub_points">
             <div className="point">
               <div>
-                <img src="shake_hand.png"></img>{" "}
+                <img src={shakehand} alt="shake hand"></img>{" "}
               </div>
               <div>
                 <p>Product you can trust</p>
@@ -133,7 +142,7 @@ export default function ProductDetails() {
 
             <div className="point">
               <div>
-                <img src="payment.png"></img>
+                <img src={payment} alt="payment"></img>
               </div>
               <div>
                 <p>Multiple mode of payments available</p>

@@ -1,5 +1,6 @@
 import React from 'react'
-import './CategoryHeader.css'
+import '../CSS FILES/CategoryHeader.css'
+import sortby from '../IMAGES/sort.png'
 
 export default function CategoryHeader(props) {
   return (
@@ -21,7 +22,7 @@ export default function CategoryHeader(props) {
                 {/* Div holding sort text and button */}
                 <div className="header-sort">
                     <div><h4>SORT BY</h4></div>
-                    <div><img src="sort.png"></img></div>
+                    <div><img src={sortby} alt='sortby'></img></div>
                 </div>
 
 

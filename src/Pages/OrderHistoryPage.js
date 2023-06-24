@@ -1,17 +1,18 @@
 import React from 'react'
-import MiddleHeader from './MiddleHeader'
-import OrderHistoryAggregatedCard from './OrderHistoryAggregatedCard'
-import OrderHistoryCard from './OrderHistoryCard'
+import MiddleHeader from '../Components/ORDER HISTORY PAGE COMPONENTS/JS FILES/MiddleHeader'
+import OrderHistoryAggregatedCard from '../Components/ORDER HISTORY PAGE COMPONENTS/JS FILES/OrderHistoryAggregatedCard'
+import OrderHistoryCard from '../Components/ORDER HISTORY PAGE COMPONENTS/JS FILES/OrderHistoryCard'
 import './OrderHistoryPage.css'
-import Navbar from './Navbar'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 
 export default function OrderHistoryPage() {
   return (
     <div>
 
-        <Navbar></Navbar>
+        <Navbar/>
         
-        <MiddleHeader heading='Your Order History' description='This is the list of items ordered by you previously'></MiddleHeader>
+        <MiddleHeader heading='Your Order History' description='This is the list of items ordered by you previously'/>
         
         <div className='order-history'>
             <OrderHistoryAggregatedCard/>
@@ -29,6 +30,7 @@ export default function OrderHistoryPage() {
             <OrderHistoryCard/>
             <OrderHistoryCard/>
         </div>
+        <Footer/>
 
 
 
