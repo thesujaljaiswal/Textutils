@@ -8,7 +8,7 @@ import Footer from '../Components/Footer'
 
 export default function OrderHistoryPage() {
   return (
-    <div>
+    <>
 
         <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'/>
         
@@ -34,6 +34,6 @@ export default function OrderHistoryPage() {
 
 
 
-    </div>
+    </>
   )
 }

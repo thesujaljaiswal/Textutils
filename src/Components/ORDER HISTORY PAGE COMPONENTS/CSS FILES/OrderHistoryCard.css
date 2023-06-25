@@ -3,14 +3,11 @@
     flex-direction:row;
     justify-content: space-between;
     flex-wrap:wrap;
-
     width: 1129px;
     height: 228px;
-    
     background: #FFFFFF;
     border: 1px solid #000000;
 }
-
 
 .order-item-information{
     display:flex;
@@ -18,11 +15,8 @@
     justify-content: flex-start;
     flex-wrap:wrap;
     margin-left:20px;
-
     width: 520px;
     height: 229px;
-    
-
 }
 
 .order-item-date-image{
@@ -31,10 +25,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
-
     width: 205px;
     height: 229px;
-
 }
 
 .order-item-date-image p{
@@ -45,12 +37,8 @@
     line-height: 18px;
     display: flex;
     align-items: center;
-
     color: #000000;
-
 }
-
-
 
 .order-item-name-button{
     display:flex;
@@ -68,9 +56,7 @@
     line-height: 18px;
     display: flex;
     align-items: center;
-
     color: #000000;
-
     margin-top:50px;
 }
 
@@ -79,12 +65,9 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap:wrap;
-
     width: 260px;
     height: 229px;
-
     margin-top: 50px;
-
 }
 
 .order-item-name-button-buttons a{
@@ -95,9 +78,7 @@
     line-height: 15px;
     display: flex;
     align-items: center;
-
     color: #000000;
-
 }
 
 .buy-again-button{
@@ -105,11 +86,8 @@
    justify-content: center;
    align-items: center;
    flex-wrap:wrap;
-
     width: 105.78px;
     height: 26px;
-    
-
     background: #EFDA21;
     border-radius: 2px;
 }
@@ -119,11 +97,8 @@
    justify-content: center;
    align-items: center;
    flex-wrap:wrap;
-
     width: 105.78px;
     height: 26px;
-   
-
     background: #D9D9D9;
     border-radius: 2px;
 }
@@ -134,7 +109,6 @@
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-
     margin-right:30px;
 }
 
@@ -150,9 +124,7 @@
     line-height: 15px;
     display: flex;
     align-items: center;
-
     color: #000000;
-
 }
 
 .rate-product-button{
@@ -160,10 +132,8 @@
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-
     width: 340px;
     height: 26px;
-
     background-color:#7FDA7F ;
     border-radius: 2px;
 }
@@ -173,10 +143,8 @@
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    
     width: 340px;
     height: 26px;
-
     background-color:#D9D9D9;
     border-radius: 2px;
 }
@@ -186,10 +154,8 @@
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    
     width: 340px;
     height: 26px;
-
     background-color:#D73E3E; ;
     border-radius: 2px;
 }
@@ -199,11 +165,144 @@
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    
     width: 340px;
     height: 26px;
-
     background-color:#FFC0CB;
     border-radius: 2px;
 }
 
+@media (max-width:1200px){
+    .order-item{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        width: 900px;
+        height: 228px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+    }
+    .rate-product-button{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        width: 180px;
+        height: 26px;
+        background-color:#7FDA7F ;
+        border-radius: 2px;
+    }
+    .feedback-button{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        width: 180px;
+        height: 26px;
+        background-color:#D9D9D9;
+        border-radius: 2px;
+    }
+    .report-issue-button{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        width: 180px;
+        height: 26px;
+        background-color:#D73E3E; ;
+        border-radius: 2px;
+    }
+    .invoice-button{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        width: 180px;
+        height: 26px;
+        background-color:#FFC0CB;
+        border-radius: 2px;
+    }
+}
+
+@media (max-width:900px){
+    .order-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 420px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+    }
+    .order-item-date-image p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .order-item-date-image img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100px;
+    }
+    .order-item-information {
+        margin-left: 0px;
+    }
+    .order-item-date-image{
+        width: 136px;
+    }
+    .order-item-name-button p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin: 2px;
+    }
+    .order-item-name-button-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 110px;
+        height: 62px;
+        margin-top: 20px;
+    }
+    .order-item-name-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        width: 150px;
+    }
+    .order-item-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        width: 300px;
+    }
+    .order-item-information {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        width: 520px;
+        height: 100px;
+    }
+}
