@@ -5,3 +5,8 @@
     flex-wrap: wrap;
     margin-top: 50px;
 }
+@media(max-width:1200px){
+    .product-card-collection{
+        margin-top: 0px;
+    }
+}

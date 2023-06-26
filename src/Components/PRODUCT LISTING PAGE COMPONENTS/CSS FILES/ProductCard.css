@@ -16,9 +16,7 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
-
     color: #000000;
-
 }
 
 .product-price{
@@ -27,6 +25,113 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
-
     color: #000000;
+}
+
+@media(max-width:1200px){
+    .product-card{
+        display:flex;
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .product-image img{
+        width: 200px;
+    }
+    .product-name p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 0px;
+        color: #000000;
+    }
+    .product-price {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 0px;
+        color: #000000;
+    }    
+}
+
+@media(max-width:900px){
+    .product-card{
+        display:flex;
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .product-image img{
+        width: 300px;
+    }
+    .product-name p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 0px;
+        color: #000000;
+    }
+    .product-price {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 0px;
+        color: #000000;
+    }    
+}
+
+@media(max-width:600px){
+    .product-card{
+        display:flex;
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .product-image img{
+        width: 210px;
+    }
+    .product-name p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 0px;
+        color: #000000;
+    }
+    .product-price {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 0px;
+        color: #000000;
+    }    
+}
+
+@media(max-width:450px){
+    .product-card{
+        display:flex;
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .product-image img{
+        width: 150px;
+    }
+    .product-name p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 0px;
+        color: #000000;
+    }
+    .product-price {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0px;
+        color: #000000;
+    }    
 }

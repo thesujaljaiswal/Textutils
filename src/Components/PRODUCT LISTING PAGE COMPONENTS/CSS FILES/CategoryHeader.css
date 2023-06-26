@@ -76,3 +76,131 @@
 
     color: #000000;
 }
+
+@media (max-width:1200px){
+    .outer-category-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* margin-left: 91px; */
+        margin-right: 91px;
+    }
+}
+
+@media(max-width:900px){
+    .outer-category-header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* margin-left: 91px; */
+        /* margin-right: 91px; */
+    }
+    .sort_and_filter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+    .header-title h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .header-results {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .header-sort h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+    .header-sort img {
+        margin-top: 25px;
+        margin-right: 45px;
+        width: 18px;
+    }
+    .header-filter h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+}
+
+@media(max-width:600px){
+    .outer-category-header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sort_and_filter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+    .header-title h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 44px;
+        color: #000000;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .header-results {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .header-sort h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        color: #000000;
+        margin: 0;
+    }
+    .header-sort img {
+        margin-top: 2px;
+        margin-right: 45px;
+        width: 15px;
+    }
+    .header-filter h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        color: #000000;
+        margin: 0;
+    }
+}

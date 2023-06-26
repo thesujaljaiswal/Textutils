@@ -4,7 +4,7 @@ import sortby from '../IMAGES/sort.png'
 
 export default function CategoryHeader(props) {
   return (
-    <div>
+    <>
         <div className="outer-category-header">
 
             {/* Div holding title and results count */}
@@ -35,6 +35,6 @@ export default function CategoryHeader(props) {
 
 
         </div>
-    </div>
+    </>
   )
 }
