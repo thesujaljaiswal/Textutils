@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ProductPreview from '../Components/PRODUCT PREVIEW PAGE COMPONENTS/JS FILES/ProductPreview'
 import ProductDetails from '../Components/PRODUCT PREVIEW PAGE COMPONENTS/JS FILES/ProductDetails';
 import Navbar from '../Components/Navbar';
@@ -6,6 +6,9 @@ import Footer from '../Components/Footer';
 import './ProductPage.css';
 
 export default function ProductPage() {
+  useEffect(() => {
+    document.title = "Hype - Product Preview";
+  }, []);
   return (
     <>
 

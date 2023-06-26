@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MiddleHeader from '../Components/ORDER HISTORY PAGE COMPONENTS/JS FILES/MiddleHeader'
 import OrderHistoryAggregatedCard from '../Components/ORDER HISTORY PAGE COMPONENTS/JS FILES/OrderHistoryAggregatedCard'
 import OrderHistoryCard from '../Components/ORDER HISTORY PAGE COMPONENTS/JS FILES/OrderHistoryCard'
@@ -7,6 +7,9 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 
 export default function OrderHistoryPage() {
+  useEffect(() => {
+    document.title = "Hype - Order History";
+  }, []);
   return (
     <>
 

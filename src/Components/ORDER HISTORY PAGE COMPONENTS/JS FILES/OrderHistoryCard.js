@@ -1,6 +1,7 @@
 import React from 'react'
 import '../CSS FILES/OrderHistoryCard.css'
 import img from '../IMAGE/white_tshirt.png'
+import { Link } from 'react-router-dom'
 
 export default function OrderHistoryCard() {
   return (
@@ -25,8 +26,8 @@ export default function OrderHistoryCard() {
 
                         {/* Holds the buy again and view item buttons */}
                         <div className="order-item-name-button-buttons">
-                            <div className='buy-again-button'><a href="/">Buy Again</a></div>
-                            <div className='view-item-button'><a href="/">View this item</a></div>
+                            <div className='buy-again-button'><Link to="/orderhistory">Buy Again</Link></div>
+                            <div className='view-item-button'><Link to="/orderhistory">View this item</Link></div>
                         </div>
                     </div>
                 </div>
@@ -34,10 +35,10 @@ export default function OrderHistoryCard() {
 
                 {/* Holds the buttons for the product */}
                 <div className="order-item-buttons">
-                <a href="/"><div className='rate-product-button'>Rate the product</div></a>
-                <a href="/"><div className='feedback-button'>Leave a feedback</div></a>
-                <a href="/"><div className='report-issue-button'>Report an issue</div></a>
-                <a href="/"><div className='invoice-button'>Download order invoice</div></a>
+                <Link to="/orderhistory"><div className='rate-product-button'>Rate the product</div></Link>
+                <Link to="/orderhistory"><div className='feedback-button'>Leave a feedback</div></Link>
+                <Link to="/orderhistory"><div className='report-issue-button'>Report an issue</div></Link>
+                <Link to="/orderhistory"><div className='invoice-button'>Download order invoice</div></Link>
                 </div>
 
 

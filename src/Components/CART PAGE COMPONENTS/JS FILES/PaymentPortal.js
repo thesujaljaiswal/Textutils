@@ -6,6 +6,7 @@ import visa from '../IMAGES/visa 1.png'
 import gpay from '../IMAGES/google-pay 1.png'
 import razorpay from '../IMAGES/razorpaypng 1.png'
 import mastercard from '../IMAGES/mastercard 1.png'
+import { Link } from 'react-router-dom'
 
 export default function PaymentPortal() {
   return (
@@ -45,7 +46,7 @@ export default function PaymentPortal() {
 
                 {/* Holds the checkout button */}
                 <div className="checkout_div">
-                    <div><a href='/'><p>Continue to checkout</p></a></div>
+                    <div><Link to='/cart'><p>Continue to checkout</p></Link></div>
                 </div>
 
                 {/* Holds the payment header and icons */}

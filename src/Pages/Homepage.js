@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../Components/Navbar'
 import Banner from '../Components/LANDING PAGE COMPONENTS/JS FILES/Banner'
 import NightModeToggle from '../Components/LANDING PAGE COMPONENTS/JS FILES/NightModeToggle'
@@ -10,6 +10,9 @@ import Bestseller from '../Components/LANDING PAGE COMPONENTS/JS FILES/Bestselle
 import Footer from '../Components/Footer'
 
 export default function Homepage() {
+  useEffect(() => {
+    document.title = "Hype - Home";
+  }, []);
   return (
     <>
       <Navbar opt1='MENS' opt2='WOMENS' opt3='KIDS'/>
